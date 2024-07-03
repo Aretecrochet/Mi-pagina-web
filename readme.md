@@ -32,14 +32,8 @@ arete-crochet/
 ├── assets/
 │   ├── css/
 │   │   └── style.css
-│   ├── img/
-│   │   ├── logo.png
-│   │   └── productos/
-│   │       ├── producto1.jpeg
-│   │       ├── producto2.jpeg
-│   │       ├── producto3.jpeg
-│   │       ├── producto4.jpeg
-│   │       ├── producto5.jpeg
-│   │       └── producto6.jpeg
+│   └── img/
+│       ├── logo.png
+│       └── productos/
 ├── index.html
 └── README.md
