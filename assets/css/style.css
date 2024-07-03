@@ -1,0 +1,94 @@
+:root {
+    --primary: #e6a6b1;
+    --secondary: #f8cdd3;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f2f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f8cdd3;
+    text-align: center;
+    padding: 20px;
+}
+
+header img {
+    width: 150px;
+    height: auto;
+}
+
+nav {
+    background-color: #e6a6b1;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    padding: 20px;
+}
+
+.gallery {
+    background: #EEE;
+    margin-bottom: 20px;
+}
+
+.gallery-cell {
+    width: 500px; /* Ajusta el ancho de las celdas del carrusel */
+    height: auto;
+    margin: 0 auto;
+}
+
+.gallery-cell img {
+    width: 80%; /* Asegura que las imágenes llenen la celda */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    background-color: #fff;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #f8cdd3;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.contact-info, .payment-info {
+    margin-bottom: 20px;
+}
+
+.primary {
+    background-color: var(--primary) !important;
+    border: 1px solid var(--secondary) !important;
+}
+
+.primary:hover {
+    background-color: var(--secondary) !important;
+}
